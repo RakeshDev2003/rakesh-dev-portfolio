@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" rx="60" fill="url(#g1)"/>
+  <circle cx="620" cy="170" r="120" fill="#BFDBFE" opacity="0.65"/>
+  <circle cx="170" cy="830" r="180" fill="#DBEAFE" opacity="0.6"/>
+  <rect x="120" y="120" width="560" height="760" rx="44" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="400" cy="360" r="120" fill="url(#g2)"/>
+  <path d="M335 556c24-35 55-53 65-53s41 18 65 53c24 35 38 83 38 113v62H297v-62c0-30 14-78 38-113Z" fill="#0F172A"/>
+  <rect x="268" y="690" width="264" height="26" rx="13" fill="#E2E8F0"/>
+  <rect x="300" y="742" width="200" height="18" rx="9" fill="#CBD5E1"/>
+  <rect x="275" y="790" width="250" height="18" rx="9" fill="#E2E8F0"/>
+  <text x="400" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#64748B">Developer Portrait</text>
+</svg>
