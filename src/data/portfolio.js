@@ -159,7 +159,7 @@ export const portfolioData = {
           "A scalable store experience with product discovery, cart flow, and a clean checkout journey.",
         tech: ["React Js", "Node JS", "MongoDB"],
         image: "/images/project-ecommerce.svg",
-        live: "#",
+        live: "https://forever-clone-by-rakesh.vercel.app/",
         github: "#",
         featured: false,
       },
