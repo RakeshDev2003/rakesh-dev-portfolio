@@ -169,7 +169,7 @@ export const portfolioData = {
           "its a sithub website clone using Html Css and Js",
         tech: ["HTML","CSS","Js"],
         image: "/images/Screenshot 2026-04-27 221645.png",
-        live: "sithub-by-rakesh.vercel.app",
+        live: "https://sithub-by-rakesh.vercel.app",
         github: "https://github.com/RakeshDev2003/SITHUB-by--Rakesh",
         featured: true,
       },
