@@ -148,7 +148,7 @@ export const portfolioData = {
         description:
           "A scalable vegetalbe and home items website ",
         tech: ["React.js"],
-        image: "/images/",
+        image: "/images/Screenshot 2026-04-27 221141.png",
         live: "https://borobazar-by-rakesh.vercel.app/",
         github: "#",
         featured: true,
