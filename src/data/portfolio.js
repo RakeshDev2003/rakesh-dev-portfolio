@@ -163,16 +163,16 @@ export const portfolioData = {
         github: "#",
         featured: false,
       },
-      {
-        title: "Vartalabh Chat App",
-        description:
-          "A realtime chat platform with rooms, instant updates, and lightweight notification UX.",
-        tech: ["React Js", "Express JS", "Socket.io"],
-        image: "/images/project-chat.svg",
-        live: "#",
-        github: "#",
-        featured: false,
-      },
+      // {
+      //   title: "Vartalabh Chat App",
+      //   description:
+      //     "A realtime chat platform with rooms, instant updates, and lightweight notification UX.",
+      //   tech: ["React Js", "Express JS", "Socket.io"],
+      //   image: "/images/project-chat.svg",
+      //   live: "#",
+      //   github: "#",
+      //   featured: false,
+      // },
     ],
   },
   services: {
