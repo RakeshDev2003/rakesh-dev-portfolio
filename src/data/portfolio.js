@@ -168,7 +168,7 @@ export const portfolioData = {
         description:
           "its a sithub website clone using Html Css and Js",
         tech: ["HTML","CSS","Js"],
-        image: "/images/project-chat.svg",
+        image: "/images/Screenshot 2026-04-27 221645.png",
         live: "sithub-by-rakesh.vercel.app",
         github: "#",
         featured: false,
