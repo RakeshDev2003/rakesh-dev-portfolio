@@ -1,0 +1,31 @@
+name: Auto Empty Commit
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  empty_commit:
+    if: "!contains(github.event.head_commit.message, 'Auto commit after push')"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get Current Branch
+        run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+      - name: Create Empty Commit
+        run: |
+          git config --global user.name "RakeshDev2003"
+          git config --global user.email "rakeshdev9863@gmail.com"
+
+          git commit --allow-empty -m "Auto commit after push" || echo "No commit needed"
+          git push origin ${{ env.branch }}
