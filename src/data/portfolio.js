@@ -144,12 +144,12 @@ export const portfolioData = {
       "Each card can be updated from this one data file, including live links, tech stack, and image paths.",
     items: [
       {
-        title: "Portfolio Website",
+        title: "E-commerce website ",
         description:
-          "A modern personal portfolio with smooth scrolling, elegant sections, and a responsive interface.",
-        tech: ["Next.js", "Tailwind", "Framer Motion"],
-        image: "/images/project-portfolio.svg",
-        live: "#",
+          "A scalable vegetalbe and home items website ",
+        tech: ["React.js"],
+        image: "/images/",
+        live: "https://borobazar-by-rakesh.vercel.app/",
         github: "#",
         featured: true,
       },
