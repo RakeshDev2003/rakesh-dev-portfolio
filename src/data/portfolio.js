@@ -281,7 +281,7 @@ export const portfolioData = {
     title: "Let’s build something awesome together.",
     description:
       "Have an idea, a role, or a project in mind? Send a message and I’ll respond as soon as possible.",
-    email: "rakeshsanasam2003@gmail.com",
+    email: "rakeshdev9863@gmail.com",
     phone: "+91 9863882486",
     location: "Jharoda Kalan, New Delhi, India",
     form: {
