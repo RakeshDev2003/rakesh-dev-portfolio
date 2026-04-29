@@ -103,9 +103,11 @@ export default function ContactSection({ contact, socialLinks }) {
                     placeholder={contact.form.messagePlaceholder}
                     className="w-full rounded-3xl border border-slate-200 bg-white px-4 py-3 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-sky-300 focus:ring-2 focus:ring-sky-100"
                   />
-                          <a href="mailto:rakeshdev9863@gmail.com"> <Button type="submit" variant="primary" size="lg" className="w-full sm:w-auto">
-                    {contact.form.submitLabel}
-                  </Button></a>
+                  <a href="mailto:rakeshdev9863@gmail.com">
+  <Button type="button" variant="primary" size="lg" className="w-full sm:w-auto">
+    {contact.form.submitLabel}
+  </Button>
+</a>
 
                  
                 </form>
