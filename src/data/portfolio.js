@@ -26,7 +26,7 @@ export const portfolioData = {
   socialLinks: [
     {
       name: "Email",
-      href: "mailto:rakeshsanasam2003@gmail.com",
+      href: "mailto:rakeshdev9863@gmail.com",
       iconName: "email",
     },
     {
