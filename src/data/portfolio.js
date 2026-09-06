@@ -149,6 +149,16 @@ export const portfolioData = {
           "A scalable vegetalbe and home items website ",
         tech: ["React.js"],
         image: "/images/Screenshot 2026-04-27 221141.png",
+        live: "https://grabit-mern-stack.vercel.app/",
+        github: "https://github.com/RakeshDev2003/BoroBazar-by-Rakesh",
+        featured: true,
+      },
+      {
+        title: "E-commerce website ",
+        description:
+          "A scalable vegetalbe and home items website ",
+        tech: ["React.js"],
+        image: "/images/Screenshot 2026-04-27 221141.png",
         live: "https://borobazar-by-rakesh.vercel.app/",
         github: "https://github.com/RakeshDev2003/BoroBazar-by-Rakesh",
         featured: true,
